@@ -1,0 +1,525 @@
+Date/Time:       2024-11-20 10:02:08 
+Command line:    /data/data/com.termux/files/usr/bin/briefcase new
+
+OS Release:      Linux 5.15.104-g56c82d2e3e35-dirty
+OS Version:      #1 SMP PREEMPT Tue Apr 16 02:05:08 UTC 2024
+Architecture:    aarch64
+Platform:        Linux-5.15.104-g56c82d2e3e35-dirty-aarch64-with-libc
+
+Python exe:      /data/data/com.termux/files/usr/bin/python3.12
+Python version:  3.12.7 (main, Oct 23 2024, 22:38:17) [Clang 18.0.2 (https://android.googlesource.com/toolchain/llvm-project d8003a456
+Virtual env:     False
+Conda env:       False
+
+Briefcase:       0.3.20
+Target platform: all
+Target format:   None
+
+Environment Variables:
+	ANDROID_ART_ROOT=/apex/com.android.art
+	ANDROID_ASSETS=/system/app
+	ANDROID_DATA=/data
+	ANDROID_I18N_ROOT=/apex/com.android.i18n
+	ANDROID_ROOT=/system
+	ANDROID_STORAGE=/storage
+	ANDROID_TZDATA_ROOT=/apex/com.android.tzdata
+	ASEC_MOUNTPOINT=/mnt/asec
+	BOOTCLASSPATH=/apex/com.android.art/javalib/core-oj.jar:/apex/com.android.art/javalib/core-libart.jar:/apex/com.android.art/javalib/okhttp.jar:/apex/com.android.art/javalib/bouncycastle.jar:/apex/com.android.art/javalib/apache-xml.jar:/system/framework/framework.jar:/system/framework/framework-graphics.jar:/system/framework/ext.jar:/system/framework/telephony-common.jar:/system/framework/voip-common.jar:/system/framework/ims-common.jar:/system/framework/tcmiface.jar:/system/framework/telephony-ext.jar:/system/framework/qcom.fmradio.jar:/system/framework/QPerformance.jar:/system/framework/UxPerformance.jar:/system/framework/WfdCommon.jar:/system/framework/vivo-framework.jar:/system/framework/vivo-media.jar:/system/framework/framework-adapter.jar:/system/framework/soc-framework.jar:/system/framework/vivo-vgcclient.jar:/system/framework/vivo-coworkclient.jar:/system/framework/vivo-emmclient.jar:/apex/com.android.i18n/javalib/core-icu4j.jar:/apex/com.android.adservices/javalib/framework-adservices.jar:/apex/com.android.adservices/javalib/framework-sdksandbox.jar:/apex/com.android.appsearch/javalib/framework-appsearch.jar:/apex/com.android.configinfrastructure/javalib/framework-configinfrastructure.jar:/apex/com.android.conscrypt/javalib/conscrypt.jar:/apex/com.android.devicelock/javalib/framework-devicelock.jar:/apex/com.android.healthfitness/javalib/framework-healthfitness.jar:/apex/com.android.ipsec/javalib/android.net.ipsec.ike.jar:/apex/com.android.media/javalib/updatable-media.jar:/apex/com.android.mediaprovider/javalib/framework-mediaprovider.jar:/apex/com.android.ondevicepersonalization/javalib/framework-ondevicepersonalization.jar:/apex/com.android.os.statsd/javalib/framework-statsd.jar:/apex/com.android.permission/javalib/framework-permission.jar:/apex/com.android.permission/javalib/framework-permission-s.jar:/apex/com.android.scheduling/javalib/framework-scheduling.jar:/apex/com.android.sdkext/javalib/framework-sdkextensions.jar:/apex/com.android.tethering/javalib/framework-connectivity.jar:/apex/com.android.tethering/javalib/framework-connectivity-t.jar:/apex/com.android.tethering/javalib/framework-tethering.jar:/apex/com.android.uwb/javalib/framework-uwb.jar:/apex/com.android.virt/javalib/framework-virtualization.jar:/apex/com.android.wifi/javalib/framework-wifi.jar
+	COLORTERM=truecolor
+	DEX2OATBOOTCLASSPATH=/apex/com.android.art/javalib/core-oj.jar:/apex/com.android.art/javalib/core-libart.jar:/apex/com.android.art/javalib/okhttp.jar:/apex/com.android.art/javalib/bouncycastle.jar:/apex/com.android.art/javalib/apache-xml.jar:/system/framework/framework.jar:/system/framework/framework-graphics.jar:/system/framework/ext.jar:/system/framework/telephony-common.jar:/system/framework/voip-common.jar:/system/framework/ims-common.jar:/system/framework/tcmiface.jar:/system/framework/telephony-ext.jar:/system/framework/qcom.fmradio.jar:/system/framework/QPerformance.jar:/system/framework/UxPerformance.jar:/system/framework/WfdCommon.jar:/system/framework/vivo-framework.jar:/system/framework/vivo-media.jar:/system/framework/framework-adapter.jar:/system/framework/soc-framework.jar:/system/framework/vivo-vgcclient.jar:/system/framework/vivo-coworkclient.jar:/system/framework/vivo-emmclient.jar:/apex/com.android.i18n/javalib/core-icu4j.jar
+	EXTERNAL_STORAGE=/sdcard
+	HISTCONTROL=ignoreboth
+	HOME=/data/data/com.termux/files/home
+	LANG=en_US.UTF-8
+	LD_PRELOAD=/data/data/com.termux/files/usr/lib/libtermux-exec.so
+	PATH=/data/data/com.termux/files/usr/bin:/product/bin:/apex/com.android.runtime/bin:/apex/com.android.art/bin:/system_ext/bin:/system/bin:/system/xbin:/odm/bin:/vendor/bin:/vendor/xbin
+	PREFIX=/data/data/com.termux/files/usr
+	PWD=/data/data/com.termux/files/home
+	SHELL=/data/data/com.termux/files/usr/bin/bash
+	SHLVL=1
+	SYSTEMSERVERCLASSPATH=/system/framework/com.android.location.provider.jar:/system/framework/services.jar:/system/framework/vivo-services.jar:/system/framework/soc-services.jar:/system/framework/services-adapter.jar:/system/framework/vivo-service-wifi-ex.jar:/apex/com.android.adservices/javalib/service-adservices.jar:/apex/com.android.adservices/javalib/service-sdksandbox.jar:/apex/com.android.appsearch/javalib/service-appsearch.jar:/apex/com.android.art/javalib/service-art.jar:/apex/com.android.configinfrastructure/javalib/service-configinfrastructure.jar:/apex/com.android.healthfitness/javalib/service-healthfitness.jar:/apex/com.android.media/javalib/service-media-s.jar:/apex/com.android.ondevicepersonalization/javalib/service-ondevicepersonalization.jar:/apex/com.android.permission/javalib/service-permission.jar:/apex/com.android.rkpd/javalib/service-rkp.jar
+	TERM=xterm-256color
+	TERMUX_EXEC__PROC_SELF_EXE=/data/data/com.termux/files/usr/bin/briefcase
+	TERMUX_VERSION=googleplay.2024.08.29
+	TMP=/data/data/com.termux/files/usr/tmp
+	TMPDIR=/data/data/com.termux/files/usr/tmp
+	_=/data/data/com.termux/files/usr/bin/briefcase
+
+pyproject.toml:
+[Errno 2] No such file or directory: '/data/data/com.termux/files/home/pyproject.toml'
+
+Briefcase Log:
+[09:39:03]                                                                                                                                                                new.py:690
+           Let's build a new Briefcase app!                                                                                                                               new.py:691
+                                                                                                                                                                          new.py:305
+                                                                                                                                                                          new.py:306
+           -- Formal Name --------------------------------                                                                                                                new.py:307
+                                                                                                                                                                          new.py:311
+           First, we need a formal name for your                                                                                                                          new.py:312
+           application.                                                                                                                                                             
+                                                                                                                                                                                    
+           This is the name that will be displayed to                                                                                                                               
+           humans whenever the name of the application is                                                                                                                           
+           displayed. It can have spaces and punctuation                                                                                                                            
+           if you like, and any capitalization will be                                                                                                                              
+           used as you type it.                                                                                                                                                     
+                                                                                                                                                                          new.py:313
+[09:40:11] Formal Name [Hello World]:                                                                                                                                     new.py:457
+           User input: Program Inspection and Upgrade                                                                                                                     new.py:457
+                                                                                                                                                                          new.py:305
+                                                                                                                                                                          new.py:306
+           -- App Name -----------------------------------                                                                                                                new.py:307
+                                                                                                                                                                          new.py:311
+           Next, we need a name that can serve as a                                                                                                                       new.py:312
+           machine-readable Python package name for your                                                                                                                            
+           application.                                                                                                                                                             
+                                                                                                                                                                                    
+           This name must be PEP508-compliant - that means                                                                                                                          
+           the name may only contain letters, numbers,                                                                                                                              
+           hyphens and underscores; it can't contain                                                                                                                                
+           spaces or punctuation, and it can't start with                                                                                                                           
+           a hyphen or underscore.                                                                                                                                                  
+                                                                                                                                                                                    
+           Based on your formal name, we suggest an app                                                                                                                             
+           name of 'programinspectionandupgrade', but you                                                                                                                           
+           can use another name if you want.                                                                                                                                        
+                                                                                                                                                                          new.py:313
+[09:40:20] App Name [programinspectionandupgrade]:                                                                                                                        new.py:475
+           User input: Program Inspection and Upgrade                                                                                                                     new.py:475
+                                                                                                                                                                          new.py:330
+           'Program Inspection and Upgrade' is not a valid                                                                                                                new.py:331
+           app name.                                                                                                                                                      new.py:331
+                                                                                                                                                                          new.py:331
+           App names must not be reserved keywords such as                                                                                                                new.py:331
+           'and', 'for' and 'while'. They must also be                                                                                                                    new.py:331
+           PEP508 compliant (i.e., they can only include                                                                                                                  new.py:331
+           letters, numbers, '-' and '_'; must start with                                                                                                                 new.py:331
+           a letter; and cannot end with '-' or '_').                                                                                                                     new.py:331
+                                                                                                                                                                          new.py:377
+[09:41:19] App Name [programinspectionandupgrade]:                                                                                                                        new.py:475
+           User input: Program_Inspection_and_Upgrade                                                                                                                     new.py:475
+                                                                                                                                                                          new.py:305
+                                                                                                                                                                          new.py:306
+           -- Bundle Identifier --------------------------                                                                                                                new.py:307
+                                                                                                                                                                          new.py:311
+           Now we need a bundle identifier for your                                                                                                                       new.py:312
+           application.                                                                                                                                                             
+                                                                                                                                                                                    
+           App stores need to protect against having                                                                                                                                
+           multiple applications with the same name; the                                                                                                                            
+           bundle identifier is the namespace they use to                                                                                                                           
+           identify applications that come from you. The                                                                                                                            
+           bundle identifier is usually the domain name of                                                                                                                          
+           your company or project, in reverse order.                                                                                                                               
+                                                                                                                                                                                    
+           For example, if you are writing an application                                                                                                                           
+           for Example Corp, whose website is example.com,                                                                                                                          
+           your bundle would be 'com.example'. The bundle                                                                                                                           
+           will be combined with your application's                                                                                                                                 
+           machine readable name to form a complete                                                                                                                                 
+           application identifier (e.g.,                                                                                                                                            
+           com.example.Program_Inspection_and_Upgrade).                                                                                                                             
+                                                                                                                                                                          new.py:313
+[09:41:43] Bundle Identifier [com.example]:                                                                                                                               new.py:499
+           User input: Program_Inspection_and_Upgrade                                                                                                                     new.py:499
+                                                                                                                                                                          new.py:330
+           'Program_Inspection_and_Upgrade' is not a valid                                                                                                                new.py:331
+           bundle identifier.                                                                                                                                             new.py:331
+                                                                                                                                                                          new.py:331
+           The bundle should be a reversed domain name. It                                                                                                                new.py:331
+           must contain at least 2 dot-separated sections;                                                                                                                new.py:331
+           each section may only include letters, numbers,                                                                                                                new.py:331
+           and hyphens; and each section may not contain                                                                                                                  new.py:331
+           any reserved words (like 'switch', or 'while').                                                                                                                new.py:331
+                                                                                                                                                                          new.py:377
+[09:43:58] Bundle Identifier [com.example]:                                                                                                                               new.py:499
+           User input: Program.Inspection.and.Upgrade                                                                                                                     new.py:499
+                                                                                                                                                                          new.py:305
+                                                                                                                                                                          new.py:306
+           -- Project Name -------------------------------                                                                                                                new.py:307
+                                                                                                                                                                          new.py:311
+           Briefcase can manage projects that contain                                                                                                                     new.py:312
+           multiple applications, so we need a Project                                                                                                                              
+           name.                                                                                                                                                                    
+                                                                                                                                                                                    
+           If you're only planning to have one application                                                                                                                          
+           in this project, you can use the formal name as                                                                                                                          
+           the project name.                                                                                                                                                        
+                                                                                                                                                                          new.py:313
+[09:45:54] Project Name [Program Inspection and Upgrade]:                                                                                                                 new.py:412
+           User input: Program.Inspection                                                                                                                                 new.py:412
+                                                                                                                                                                          new.py:305
+                                                                                                                                                                          new.py:306
+           -- Description --------------------------------                                                                                                                new.py:307
+                                                                                                                                                                          new.py:311
+           Now, we need a one line description for your                                                                                                                   new.py:312
+           application.                                                                                                                                                             
+                                                                                                                                                                          new.py:313
+[09:47:02] Description [My first application]:                                                                                                                            new.py:524
+           User input: Program.InspectionProgram.Inspection                                                                                                               new.py:524
+                                                                                                                                                                          new.py:305
+                                                                                                                                                                          new.py:306
+           -- Author -------------------------------------                                                                                                                new.py:307
+                                                                                                                                                                          new.py:311
+           Who do you want to be credited as the author of                                                                                                                new.py:312
+           this application?                                                                                                                                                        
+                                                                                                                                                                                    
+           This could be your own name, or the name of                                                                                                                              
+           your company you work for.                                                                                                                                               
+                                                                                                                                                                          new.py:313
+[09:48:16] Author [Jane Developer]:                                                                                                                                       new.py:531
+           User input: Nankezhou& & nankezhou.net                                                                                                                         new.py:531
+                                                                                                                                                                          new.py:305
+                                                                                                                                                                          new.py:306
+           -- Author's Email -----------------------------                                                                                                                new.py:307
+                                                                                                                                                                          new.py:311
+           What email address should people use to contact                                                                                                                new.py:312
+           the developers of this application?                                                                                                                                      
+                                                                                                                                                                                    
+           This might be your own email address, or a                                                                                                                               
+           generic contact address you set up specifically                                                                                                                          
+           for this application.                                                                                                                                                    
+                                                                                                                                                                          new.py:313
+[09:48:58] Author's Email [nankezhou&@Upgrade.and.Inspection.Program]:                                                                                                    new.py:542
+           User input: goodluck3658848@gmail.com                                                                                                                          new.py:542
+                                                                                                                                                                          new.py:305
+                                                                                                                                                                          new.py:306
+           -- Application URL ----------------------------                                                                                                                new.py:307
+                                                                                                                                                                          new.py:311
+           What is the website URL for this application?                                                                                                                  new.py:312
+                                                                                                                                                                                    
+           If you don't have a website set up yet, you can                                                                                                                          
+           put in a dummy URL.                                                                                                                                                      
+                                                                                                                                                                          new.py:313
+[09:50:18] Application URL [https://Upgrade.and.Inspection.Program/Program_Inspection_and_Upgrade]:                                                                       new.py:556
+           User input: https:///api.nankezhou.net                                                                                                                         new.py:556
+                                                                                                                                                                          new.py:330
+           Not a valid URL!                                                                                                                                               new.py:331
+                                                                                                                                                                          new.py:377
+[09:56:23] Application URL [https://Upgrade.and.Inspection.Program/Program_Inspection_and_Upgrade]:                                                                       new.py:556
+           User input:  [https://api.nankezhou.net]                                                                                                                       new.py:556
+                                                                                                                                                                          new.py:330
+           Not a valid URL!                                                                                                                                               new.py:331
+                                                                                                                                                                          new.py:377
+[09:56:27] Application URL [https://Upgrade.and.Inspection.Program/Program_Inspection_and_Upgrade]:                                                                       new.py:556
+           User input:  [https://api.nankezhou.net]                                                                                                                       new.py:556
+                                                                                                                                                                          new.py:330
+           Not a valid URL!                                                                                                                                               new.py:331
+                                                                                                                                                                          new.py:377
+[09:58:06] Application URL [https://Upgrade.and.Inspection.Program/Program_Inspection_and_Upgrade]:                                                                       new.py:556
+           User input: [https://api.nankezhou.net/api_nankezhou_net]                                                                                                      new.py:556
+                                                                                                                                                                          new.py:330
+           Not a valid URL!                                                                                                                                               new.py:331
+                                                                                                                                                                          new.py:377
+[09:58:40] Application URL [https://Upgrade.and.Inspection.Program/Program_Inspection_and_Upgrade]:                                                                       new.py:556
+           User input: https://api.nankezhou.net/api_nankezhou_net                                                                                                        new.py:556
+                                                                                                                                                                          new.py:305
+                                                                                                                                                                          new.py:306
+           -- Project License ----------------------------                                                                                                                new.py:307
+                                                                                                                                                                          new.py:311
+           What license do you want to use for this                                                                                                                       new.py:312
+           project's code?                                                                                                                                                          
+                                                                                                                                                                          new.py:313
+             1) BSD license                                                                                                                                           console.py:817
+             2) MIT license                                                                                                                                           console.py:817
+             3) Apache Software License                                                                                                                               console.py:817
+             4) GNU General Public License v2 (GPLv2)                                                                                                                 console.py:817
+             5) GNU General Public License v2 or later (GPLv2+)                                                                                                       console.py:817
+             6) GNU General Public License v3 (GPLv3)                                                                                                                 console.py:817
+             7) GNU General Public License v3 or later (GPLv3+)                                                                                                       console.py:817
+             8) Proprietary                                                                                                                                           console.py:817
+             9) Other                                                                                                                                                 console.py:817
+                                                                                                                                                                      console.py:819
+[10:00:03] Project License [1]:                                                                                                                                       console.py:822
+           User input: 2                                                                                                                                              console.py:822
+                                                                                                                                                                          new.py:305
+                                                                                                                                                                          new.py:306
+           -- GUI Framework ------------------------------                                                                                                                new.py:307
+                                                                                                                                                                          new.py:311
+           What GUI toolkit do you want to use for this                                                                                                                   new.py:312
+           project?                                                                                                                                                                 
+                                                                                                                                                                                    
+           Additional GUI bootstraps are available; visit                                                                                                                           
+           https://beeware.org/bee/briefcase-bootstraps                                                                                                                             
+           for a full list of known GUI bootstraps.                                                                                                                                 
+                                                                                                                                                                          new.py:313
+             1) Toga                                                                                                                                                  console.py:817
+             2) PySide6 (does not support iOS/Android/Web deployment)                                                                                                 console.py:817
+             3) Pygame  (does not support iOS/Android/Web deployment)                                                                                                 console.py:817
+             4) Console (does not support iOS/Android/Web deployment)                                                                                                 console.py:817
+             5) None                                                                                                                                                  console.py:817
+                                                                                                                                                                      console.py:819
+[10:01:58] GUI Framework [1]:                                                                                                                                         console.py:822
+           User input: 1                                                                                                                                              console.py:822
+                                                                                                                                                                          new.py:305
+                                                                                                                                                                          new.py:306
+           -----------------------------------------------                                                                                                                new.py:307
+                                                                                                                                                                          new.py:698
+           [Program_Inspection_and_Upgrade] Generating a new application 'Program Inspection and Upgrade'                                                                 new.py:698
+           Using app template: https://github.com/beeware/briefcase-template, branch v0.3.20                                                                            base.py:1115
+           Cloning template 'https://github.com/beeware/briefcase-template'...                                                                                           base.py:959
+[10:02:06]                                                                                                                                                            __main__.py:44
+           Unable to clone repository 'https://github.com/beeware/briefcase-template'.                                                                                __main__.py:45
+                                                                                                                                                                      __main__.py:45
+           This may be because your computer is offline, or because the repository URL is incorrect.                                                                  __main__.py:45
+           Saving log... started                                                                                                                                      console.py:391
+
+Main thread traceback:
+╭─────────────────────────────────────────────────────────────────────── Traceback (most recent call last) ────────────────────────────────────────────────────────────────────────╮
+│ /data/data/com.termux/files/usr/lib/python3.12/site-packages/briefcase/commands/base.py:961 in update_cookiecutter_cache                                                         │
+│                                                                                                                                                                                  │
+│    958 │   │   │   │   try:                                                                                                                                                      │
+│    959 │   │   │   │   │   self.logger.info(f"Cloning template {template!r}...")                                                                                                 │
+│    960 │   │   │   │   │   cached_template.mkdir(exist_ok=True, parents=True)                                                                                                    │
+│ ❱  961 │   │   │   │   │   repo = self.tools.git.Repo.clone_from(                                                                                                                │
+│    962 │   │   │   │   │   │   url=template,                                                                                                                                     │
+│    963 │   │   │   │   │   │   to_path=cached_template,                                                                                                                          │
+│    964 │   │   │   │   │   │   filter=["blob:none"],                                                                                                                             │
+│                                                                                                                                                                                  │
+│ ╭─────────────────────────────────────────────────── locals ────────────────────────────────────────────────────╮                                                                │
+│ │          branch = 'v0.3.20'                                                                                   │                                                                │
+│ │ cached_template = PosixPath('/data/data/com.termux/files/home/.cache/briefcase/templates/briefcase-template') │                                                                │
+│ │            self = <briefcase.commands.new.NewCommand object at 0x7b30f5aba0>                                  │                                                                │
+│ │        template = 'https://github.com/beeware/briefcase-template'                                             │                                                                │
+│ ╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                │
+│                                                                                                                                                                                  │
+│ /data/data/com.termux/files/usr/lib/python3.12/site-packages/git/repo/base.py:1525 in clone_from                                                                                 │
+│                                                                                                                                                                                  │
+│   1522 │   │   git = cls.GitCommandWrapperType(os.getcwd())                                                                                                                      │
+│   1523 │   │   if env is not None:                                                                                                                                               │
+│   1524 │   │   │   git.update_environment(**env)                                                                                                                                 │
+│ ❱ 1525 │   │   return cls._clone(                                                                                                                                                │
+│   1526 │   │   │   git,                                                                                                                                                          │
+│   1527 │   │   │   url,                                                                                                                                                          │
+│   1528 │   │   │   to_path,                                                                                                                                                      │
+│                                                                                                                                                                                  │
+│ ╭─────────────────────────────────────────────────────── locals ───────────────────────────────────────────────────────╮                                                         │
+│ │   allow_unsafe_options = False                                                                                       │                                                         │
+│ │ allow_unsafe_protocols = False                                                                                       │                                                         │
+│ │                    env = None                                                                                        │                                                         │
+│ │                    git = <git.cmd.Git object at 0x7b2edafc40>                                                        │                                                         │
+│ │                 kwargs = {'filter': ['blob:none'], 'no_checkout': True}                                              │                                                         │
+│ │          multi_options = None                                                                                        │                                                         │
+│ │               progress = None                                                                                        │                                                         │
+│ │                to_path = PosixPath('/data/data/com.termux/files/home/.cache/briefcase/templates/briefcase-template') │                                                         │
+│ │                    url = 'https://github.com/beeware/briefcase-template'                                             │                                                         │
+│ ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                                         │
+│                                                                                                                                                                                  │
+│ /data/data/com.termux/files/usr/lib/python3.12/site-packages/git/repo/base.py:1396 in _clone                                                                                     │
+│                                                                                                                                                                                  │
+│   1393 │   │   │   cmdline = remove_password_if_present(cmdline)                                                                                                                 │
+│   1394 │   │   │                                                                                                                                                                 │
+│   1395 │   │   │   _logger.debug("Cmd(%s)'s unused stdout: %s", cmdline, stdout)                                                                                                 │
+│ ❱ 1396 │   │   │   finalize_process(proc, stderr=stderr)                                                                                                                         │
+│   1397 │   │                                                                                                                                                                     │
+│   1398 │   │   # Our git command could have a different working dir than our actual                                                                                              │
+│   1399 │   │   # environment, hence we prepend its working dir if required.                                                                                                      │
+│                                                                                                                                                                                  │
+│ ╭──────────────────────────────────────────────────── locals ─────────────────────────────────────────────────────╮                                                              │
+│ │   allow_unsafe_options = False                                                                                  │                                                              │
+│ │ allow_unsafe_protocols = False                                                                                  │                                                              │
+│ │             clone_path = '/data/data/com.termux/files/home/.cache/briefcase/templates/briefcase-template'       │                                                              │
+│ │                cmdline = [                                                                                      │                                                              │
+│ │                          │   'git',                                                                             │                                                              │
+│ │                          │   'clone',                                                                           │                                                              │
+│ │                          │   '-v',                                                                              │                                                              │
+│ │                          │   '--filter=blob:none',                                                              │                                                              │
+│ │                          │   '--no-checkout',                                                                   │                                                              │
+│ │                          │   '--',                                                                              │                                                              │
+│ │                          │   'https://github.com/beeware/briefcase-template',                                   │                                                              │
+│ │                          │   '/data/data/com.termux/files/home/.cache/briefcase/templates/briefcase-template'   │                                                              │
+│ │                          ]                                                                                      │                                                              │
+│ │                    git = <git.cmd.Git object at 0x7b2edafc40>                                                   │                                                              │
+│ │                 kwargs = {'filter': ['blob:none'], 'no_checkout': True}                                         │                                                              │
+│ │                  multi = None                                                                                   │                                                              │
+│ │          multi_options = None                                                                                   │                                                              │
+│ │                   path = '/data/data/com.termux/files/home/.cache/briefcase/templates/briefcase-template'       │                                                              │
+│ │                   proc = <git.cmd.Git.AutoInterrupt object at 0x7b2edd7d00>                                     │                                                              │
+│ │               progress = None                                                                                   │                                                              │
+│ │                sep_dir = None                                                                                   │                                                              │
+│ │                 stderr = "Cloning into '/data/data/com.termux/files/home/.cache/briefcase/templates/briefc"+143 │                                                              │
+│ │                 stdout = ''                                                                                     │                                                              │
+│ │                    url = 'https://github.com/beeware/briefcase-template'                                        │                                                              │
+│ ╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                                              │
+│                                                                                                                                                                                  │
+│ /data/data/com.termux/files/usr/lib/python3.12/site-packages/git/util.py:504 in finalize_process                                                                                 │
+│                                                                                                                                                                                  │
+│    501 │   """Wait for the process (clone, fetch, pull or push) and handle its errors                                                                                            │
+│    502 │   accordingly."""                                                                                                                                                       │
+│    503 │   # TODO: No close proc-streams??                                                                                                                                       │
+│ ❱  504 │   proc.wait(**kwargs)                                                                                                                                                   │
+│    505                                                                                                                                                                           │
+│    506                                                                                                                                                                           │
+│    507 @overload                                                                                                                                                                 │
+│                                                                                                                                                                                  │
+│ ╭────────────────────────────────────────────────── locals ───────────────────────────────────────────────────╮                                                                  │
+│ │ kwargs = {'stderr': "Cloning into '/data/data/com.termux/files/home/.cache/briefcase/templates/briefc"+143} │                                                                  │
+│ │   proc = <git.cmd.Git.AutoInterrupt object at 0x7b2edd7d00>                                                 │                                                                  │
+│ ╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                  │
+│                                                                                                                                                                                  │
+│ /data/data/com.termux/files/usr/lib/python3.12/site-packages/git/cmd.py:834 in wait                                                                                              │
+│                                                                                                                                                                                  │
+│    831 │   │   │   if status != 0:                                                                                                                                               │
+│    832 │   │   │   │   errstr = read_all_from_possibly_closed_stream(p_stderr)                                                                                                   │
+│    833 │   │   │   │   _logger.debug("AutoInterrupt wait stderr: %r" % (errstr,))                                                                                                │
+│ ❱  834 │   │   │   │   raise GitCommandError(remove_password_if_present(self.args), status, err                                                                                  │
+│    835 │   │   │   return status                                                                                                                                                 │
+│    836 │                                                                                                                                                                         │
+│    837 │   # END auto interrupt                                                                                                                                                  │
+│                                                                                                                                                                                  │
+│ ╭────────────────────────────────────────────── locals ──────────────────────────────────────────────╮                                                                           │
+│ │   errstr = b"Cloning into '/data/data/com.termux/files/home/.cache/briefcase/templates/briefc"+143 │                                                                           │
+│ │ p_stderr = <_io.TextIOWrapper name=7 encoding='utf-8'>                                             │                                                                           │
+│ │     self = <git.cmd.Git.AutoInterrupt object at 0x7b2edd7d00>                                      │                                                                           │
+│ │   status = 128                                                                                     │                                                                           │
+│ │   stderr = "Cloning into '/data/data/com.termux/files/home/.cache/briefcase/templates/briefc"+143  │                                                                           │
+│ │ stderr_b = b"Cloning into '/data/data/com.termux/files/home/.cache/briefcase/templates/briefc"+143 │                                                                           │
+│ ╰────────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                           │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+GitCommandError: Cmd('git') failed due to: exit code(128)
+  cmdline: git clone -v --filter=blob:none --no-checkout -- https://github.com/beeware/briefcase-template /data/data/com.termux/files/home/.cache/briefcase/templates/briefcase-template
+  stderr: 'Cloning into '/data/data/com.termux/files/home/.cache/briefcase/templates/briefcase-template'...
+fatal: unable to access 'https://github.com/beeware/briefcase-template/': TLS connect error: error:00000000:lib(0)::reason(0)
+'
+
+The above exception was the direct cause of the following exception:
+
+╭─────────────────────────────────────────────────────────────────────── Traceback (most recent call last) ────────────────────────────────────────────────────────────────────────╮
+│ /data/data/com.termux/files/usr/lib/python3.12/site-packages/briefcase/__main__.py:29 in main                                                                                    │
+│                                                                                                                                                                                  │
+│   26 │   │   │   Path.cwd() / "pyproject.toml",                                                                                                                                  │
+│   27 │   │   │   overrides=overrides,                                                                                                                                            │
+│   28 │   │   )                                                                                                                                                                   │
+│ ❱ 29 │   │   command(**options)                                                                                                                                                  │
+│   30 │   except HelpText as e:                                                                                                                                                   │
+│   31 │   │   logger.info()                                                                                                                                                       │
+│   32 │   │   logger.info(str(e))                                                                                                                                                 │
+│                                                                                                                                                                                  │
+│ ╭─────────────────────────────────────────────────────────────────────────────────── locals ───────────────────────────────────────────────────────────────────────────────────╮ │
+│ │       command = <briefcase.commands.new.NewCommand object at 0x7b30f5aba0>                                                                                                   │ │
+│ │       console = <briefcase.console.Console object at 0x7b3633b3b0>                                                                                                           │ │
+│ │             e = BriefcaseCommandError("Unable to clone repository 'https://github.com/beeware/briefcase-template'.\n\nThis may be because your computer is offline, or       │ │
+│ │                 because the repository URL is incorrect.")                                                                                                                   │ │
+│ │ extra_cmdline = []                                                                                                                                                           │ │
+│ │        logger = <briefcase.console.Log object at 0x7b30e06180>                                                                                                               │ │
+│ │       options = {'template': None, 'template_branch': None, 'project_overrides': None}                                                                                       │ │
+│ │     overrides = {}                                                                                                                                                           │ │
+│ │       printer = <briefcase.console.Printer object at 0x7b36ac0320>                                                                                                           │ │
+│ │        result = 200                                                                                                                                                          │ │
+│ ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯ │
+│                                                                                                                                                                                  │
+│ /data/data/com.termux/files/usr/lib/python3.12/site-packages/briefcase/commands/new.py:754 in __call__                                                                           │
+│                                                                                                                                                                                  │
+│   751 │   │   # There are no apps, so finalize() will be a no op on app configurations.                                                                                          │
+│   752 │   │   self.finalize()                                                                                                                                                    │
+│   753 │   │                                                                                                                                                                      │
+│ ❱ 754 │   │   return self.new_app(                                                                                                                                               │
+│   755 │   │   │   template=template,                                                                                                                                             │
+│   756 │   │   │   template_branch=template_branch,                                                                                                                               │
+│   757 │   │   │   project_overrides=parse_project_overrides(project_overrides),                                                                                                  │
+│                                                                                                                                                                                  │
+│ ╭──────────────────────────────────── locals ────────────────────────────────────╮                                                                                               │
+│ │           options = {}                                                         │                                                                                               │
+│ │ project_overrides = None                                                       │                                                                                               │
+│ │              self = <briefcase.commands.new.NewCommand object at 0x7b30f5aba0> │                                                                                               │
+│ │          template = None                                                       │                                                                                               │
+│ │   template_branch = None                                                       │                                                                                               │
+│ ╰────────────────────────────────────────────────────────────────────────────────╯                                                                                               │
+│                                                                                                                                                                                  │
+│ /data/data/com.termux/files/usr/lib/python3.12/site-packages/briefcase/commands/new.py:710 in new_app                                                                            │
+│                                                                                                                                                                                  │
+│   707 │   │   │   )                                                                                                                                                              │
+│   708 │   │                                                                                                                                                                      │
+│   709 │   │   # Create the project files                                                                                                                                         │
+│ ❱ 710 │   │   self.generate_template(                                                                                                                                            │
+│   711 │   │   │   template=(                                                                                                                                                     │
+│   712 │   │   │   │   template                                                                                                                                                   │
+│   713 │   │   │   │   if template                                                                                                                                                │
+│                                                                                                                                                                                  │
+│ ╭──────────────────────────────────── locals ────────────────────────────────────╮                                                                                               │
+│ │           context = {                                                          │                                                                                               │
+│ │                     │   'formal_name': 'Program Inspection and Upgrade',       │                                                                                               │
+│ │                     │   'app_name': 'Program_Inspection_and_Upgrade',          │                                                                                               │
+│ │                     │   'class_name': 'ProgramInspectionandUpgrade',           │                                                                                               │
+│ │                     │   'module_name': 'Program_Inspection_and_Upgrade',       │                                                                                               │
+│ │                     │   'source_dir': 'src/Program_Inspection_and_Upgrade',    │                                                                                               │
+│ │                     │   'test_source_dir': 'tests',                            │                                                                                               │
+│ │                     │   'project_name': 'Program.Inspection',                  │                                                                                               │
+│ │                     │   'description': 'Program.InspectionProgram.Inspection', │                                                                                               │
+│ │                     │   'author': 'Nankezhou& & nankezhou.net ',               │                                                                                               │
+│ │                     │   'author_email': 'goodluck3658848@gmail.com',           │                                                                                               │
+│ │                     │   ... +18                                                │                                                                                               │
+│ │                     }                                                          │                                                                                               │
+│ │           options = {}                                                         │                                                                                               │
+│ │ project_overrides = {}                                                         │                                                                                               │
+│ │              self = <briefcase.commands.new.NewCommand object at 0x7b30f5aba0> │                                                                                               │
+│ │          template = None                                                       │                                                                                               │
+│ │   template_branch = None                                                       │                                                                                               │
+│ ╰────────────────────────────────────────────────────────────────────────────────╯                                                                                               │
+│                                                                                                                                                                                  │
+│ /data/data/com.termux/files/usr/lib/python3.12/site-packages/briefcase/commands/base.py:1119 in generate_template                                                                │
+│                                                                                                                                                                                  │
+│   1116 │   │   │   │   f"Using app template: {template}, branch {template_branch}"              ╭─────────────────────────────────── locals ───────────────────────────────────╮ │
+│   1117 │   │   │   )                                                                            │          branch = None                                                       │ │
+│   1118 │   │   │   # Unroll the new app template                                                │   extra_context = {                                                          │ │
+│ ❱ 1119 │   │   │   self._generate_template(                                                     │                   │   'formal_name': 'Program Inspection and Upgrade',       │ │
+│   1120 │   │   │   │   template=template,                                                       │                   │   'app_name': 'Program_Inspection_and_Upgrade',          │ │
+│   1121 │   │   │   │   branch=template_branch,                                                  │                   │   'class_name': 'ProgramInspectionandUpgrade',           │ │
+│   1122 │   │   │   │   output_path=output_path,                                                 │                   │   'module_name': 'Program_Inspection_and_Upgrade',       │ │
+│                                                                                                 │                   │   'source_dir': 'src/Program_Inspection_and_Upgrade',    │ │
+│                                                                                                 │                   │   'test_source_dir': 'tests',                            │ │
+│                                                                                                 │                   │   'project_name': 'Program.Inspection',                  │ │
+│                                                                                                 │                   │   'description': 'Program.InspectionProgram.Inspection', │ │
+│                                                                                                 │                   │   'author': 'Nankezhou& & nankezhou.net ',               │ │
+│                                                                                                 │                   │   'author_email': 'goodluck3658848@gmail.com',           │ │
+│                                                                                                 │                   │   ... +21                                                │ │
+│                                                                                                 │                   }                                                          │ │
+│                                                                                                 │     output_path = PosixPath('/data/data/com.termux/files/home')              │ │
+│                                                                                                 │            self = <briefcase.commands.new.NewCommand object at 0x7b30f5aba0> │ │
+│                                                                                                 │        template = 'https://github.com/beeware/briefcase-template'            │ │
+│                                                                                                 │ template_branch = 'v0.3.20'                                                  │ │
+│                                                                                                 │         version = <Version('0.3.20')>                                        │ │
+│                                                                                                 ╰──────────────────────────────────────────────────────────────────────────────╯ │
+│                                                                                                                                                                                  │
+│ /data/data/com.termux/files/usr/lib/python3.12/site-packages/briefcase/commands/base.py:1056 in _generate_template                                                               │
+│                                                                                                                                                                                  │
+│   1053 │   │   """                                                                              ╭────────────────────────────────── locals ──────────────────────────────────╮   │
+│   1054 │   │   # Make sure we have an updated cookiecutter template,                            │        branch = 'v0.3.20'                                                  │   │
+│   1055 │   │   # checked out to the right branch                                                │ extra_context = {                                                          │   │
+│ ❱ 1056 │   │   cached_template = self.update_cookiecutter_cache(                                │                 │   'formal_name': 'Program Inspection and Upgrade',       │   │
+│   1057 │   │   │   template=template,                                                           │                 │   'app_name': 'Program_Inspection_and_Upgrade',          │   │
+│   1058 │   │   │   branch=branch,                                                               │                 │   'class_name': 'ProgramInspectionandUpgrade',           │   │
+│   1059 │   │   )                                                                                │                 │   'module_name': 'Program_Inspection_and_Upgrade',       │   │
+│                                                                                                 │                 │   'source_dir': 'src/Program_Inspection_and_Upgrade',    │   │
+│                                                                                                 │                 │   'test_source_dir': 'tests',                            │   │
+│                                                                                                 │                 │   'project_name': 'Program.Inspection',                  │   │
+│                                                                                                 │                 │   'description': 'Program.InspectionProgram.Inspection', │   │
+│                                                                                                 │                 │   'author': 'Nankezhou& & nankezhou.net ',               │   │
+│                                                                                                 │                 │   'author_email': 'goodluck3658848@gmail.com',           │   │
+│                                                                                                 │                 │   ... +21                                                │   │
+│                                                                                                 │                 }                                                          │   │
+│                                                                                                 │   output_path = PosixPath('/data/data/com.termux/files/home')              │   │
+│                                                                                                 │          self = <briefcase.commands.new.NewCommand object at 0x7b30f5aba0> │   │
+│                                                                                                 │      template = 'https://github.com/beeware/briefcase-template'            │   │
+│                                                                                                 ╰────────────────────────────────────────────────────────────────────────────╯   │
+│                                                                                                                                                                                  │
+│ /data/data/com.termux/files/usr/lib/python3.12/site-packages/briefcase/commands/base.py:980 in update_cookiecutter_cache                                                         │
+│                                                                                                                                                                                  │
+│    977 │   │   │   │   │   # any partial remnants of this initial clone.                                                                                                         │
+│    978 │   │   │   │   │   # If we're getting a GitError, we know the directory must exist.                                                                                      │
+│    979 │   │   │   │   │   self.tools.shutil.rmtree(cached_template)                                                                                                             │
+│ ❱  980 │   │   │   │   │   raise BriefcaseCommandError(                                                                                                                          │
+│    981 │   │   │   │   │   │   f"Unable to clone repository {template!r}.\n"                                                                                                     │
+│    982 │   │   │   │   │   │   "\n"                                                                                                                                              │
+│    983 │   │   │   │   │   │   "This may be because your computer is offline, or "                                                                                               │
+│                                                                                                                                                                                  │
+│ ╭─────────────────────────────────────────────────── locals ────────────────────────────────────────────────────╮                                                                │
+│ │          branch = 'v0.3.20'                                                                                   │                                                                │
+│ │ cached_template = PosixPath('/data/data/com.termux/files/home/.cache/briefcase/templates/briefcase-template') │                                                                │
+│ │            self = <briefcase.commands.new.NewCommand object at 0x7b30f5aba0>                                  │                                                                │
+│ │        template = 'https://github.com/beeware/briefcase-template'                                             │                                                                │
+│ ╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+BriefcaseCommandError: Unable to clone repository 'https://github.com/beeware/briefcase-template'.
+
+This may be because your computer is offline, or because the repository URL is incorrect.
